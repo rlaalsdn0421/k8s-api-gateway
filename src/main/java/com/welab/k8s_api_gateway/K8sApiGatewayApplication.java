@@ -3,6 +3,7 @@ package com.welab.k8s_api_gateway;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@EnableFeignClients
 @SpringBootApplication
 public class K8sApiGatewayApplication {
 
