@@ -1,6 +1,6 @@
 containers:
   - name: k8s-api-gateway
-    image: solarhc/k8s-api-gateway:0.0.1
+    image: rlaalsdn0421/k8s-api-gateway:0.0.1
     imagePullPolicy: Always
     env:
       - name: SPRING_PROFILES_ACTIVE
